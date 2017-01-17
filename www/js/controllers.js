@@ -7,10 +7,10 @@ angular.module('starter.controllers', [])
         weight: $scope.data.weight,
         height: $scope.data.height
       });
-      person.calculate_bmi_met();
+      person.calculate_bmi_metric();
       $scope.person = person;
     };
-  });
+  })
 
   .controller('AboutController', function($scope) {
 
